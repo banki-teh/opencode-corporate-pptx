@@ -2,8 +2,6 @@
 
 Agent Skill + Custom Tool for [OpenCode](https://opencode.ai) that generates PowerPoint presentations in **Banki.ru** corporate style.
 
-Based on the official "Шаблон демо.pptx" template and "Цвета Банки.ру" theme.
-
 ## What's inside
 
 ```
@@ -161,5 +159,4 @@ rm ~/.config/opencode/tools/assets/bankiru_logo*.png
 ## License
 
 Internal use. Banki.ru brand assets are proprietary.
-# opencode-corporate-pptx
-# opencode-corporate-pptx
+
