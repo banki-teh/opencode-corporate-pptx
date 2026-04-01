@@ -162,3 +162,4 @@ rm ~/.config/opencode/tools/assets/bankiru_logo*.png
 
 Internal use. Banki.ru brand assets are proprietary.
 # opencode-corporate-pptx
+# opencode-corporate-pptx
