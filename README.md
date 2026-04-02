@@ -37,50 +37,11 @@ opencode-corporate-pptx/
 
 ## Installation
 
-### Option 1: Auto-install (recommended)
+### Windows
 
-```bash
-git clone https://github.com/<your-org>/opencode-corporate-pptx.git
-cd opencode-corporate-pptx
-chmod +x install.sh
-./install.sh
+открываем Клод CLI или opencod
 ```
-
-### Option 2: Manual install
-
-#### Step 1 — Install python-pptx
-
-```bash
-pip3 install python-pptx
-```
-
-#### Step 2 — Copy the Skill
-
-```bash
-mkdir -p ~/.config/opencode/skills/corporate-pptx
-cp skill/SKILL.md ~/.config/opencode/skills/corporate-pptx/SKILL.md
-```
-
-#### Step 3 — Copy the Custom Tool and assets
-
-```bash
-mkdir -p ~/.config/opencode/tools/assets
-cp tools/corporate-pptx.ts ~/.config/opencode/tools/corporate-pptx.ts
-cp tools/generate_pptx.py ~/.config/opencode/tools/generate_pptx.py
-cp tools/assets/*.png ~/.config/opencode/tools/assets/
-```
-
-#### Step 4 — Verify
-
-Restart OpenCode. The skill should appear in the available skills list:
-
-```
-<available_skills>
-  <skill>
-    <name>corporate-pptx</name>
-    <description>Generate PowerPoint presentations in Banki.ru corporate style...</description>
-  </skill>
-</available_skills>
+Установи навык https://github.com/banki-teh/opencode-corporate-pptx
 ```
 
 ## Usage
@@ -147,14 +108,7 @@ Based on the official "Цвета Банки.ру" PowerPoint theme:
 
 **Font:** Coil Regular (fallback: Arial)
 
-## Uninstall
 
-```bash
-rm -rf ~/.config/opencode/skills/corporate-pptx
-rm ~/.config/opencode/tools/corporate-pptx.ts
-rm ~/.config/opencode/tools/generate_pptx.py
-rm ~/.config/opencode/tools/assets/bankiru_logo*.png
-```
 
 ## License
 
